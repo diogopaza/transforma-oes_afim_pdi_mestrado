@@ -10,4 +10,7 @@ z=np.arange(3, dtype=np.uint8)
 print(z)
 
 ponto1= np.float32( [ [83,90], [447,90], [83,472]])
+ponto2=  np.float32( [ [83,90], [447,90], [83,472]])
+
 print(ponto1)
+print(ponto2)
