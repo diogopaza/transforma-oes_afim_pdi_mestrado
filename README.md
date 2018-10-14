@@ -23,7 +23,7 @@ imagem = cv2.imread("grid.jpg")<br>
 
 cv2.circle( imagem, (83,90), 10, (0,0,255), -1) na sequencia os paramentros passados são a imagem onde o círculo será desenhado,
 o local onde o círculo deve ficar na imagem, o terceiro parametro é o raio do círculo o quarto é a cor do círculo e por último caso o valor seja negativo indica que o círculo deve ser preenchido.
-
+cv2.circle( imagem, (447,90), 10, (0,0,255), -1)
 
 
 cv2.imshow("Output", imagem)<br>
