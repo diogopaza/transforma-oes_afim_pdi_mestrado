@@ -63,4 +63,6 @@ como gerenciar memoria em C versos coletor de lixo do Java. )</p>
 denadas em alguma escala( menor ou maior)</p>
 <p>Podemos então inserir valores para gama e beta</p>
 beta = scale * cos0 e beta=scale*sin0
+<p>Tudo pronto para a rotação simples - mas não leva em conta oque acontece se uma imagem é cortada ao longo das bordas. Como podemos resolver isso?</p>
+<p>A reposta está na função rotate_bound</p>
 
