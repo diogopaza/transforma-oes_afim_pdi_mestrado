@@ -66,3 +66,13 @@ beta = scale * cos0 e beta=scale*sin0
 <p>Tudo pronto para a rotação simples - mas não leva em conta oque acontece se uma imagem é cortada ao longo das bordas. Como podemos resolver isso?</p>
 <p>A reposta está na função rotate_bound</p>
 
+
+
+<p>Na linha 41 nos definimos nossa função rotate_bound</p>
+<p>Esse metódo aceita uma imagem como entrada e um angulo pra rotaciona-la</p>
+<p>Assumimos que vamos girar nossa imagem sobre esse centro( x,y )-coordenadas, então nós
+determinamos esses valores nas linhas....</p>
+
+
+
+

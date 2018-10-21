@@ -1,3 +1,9 @@
-<h1>Implementando uma função de rotação que não corta suas imagens</h1>
 
 
+import cv2
+
+
+image = cv2.imread('jogador.jpg')
+( h,w )= image.shape[:2]
+
+cv2.imshow('input', image)
