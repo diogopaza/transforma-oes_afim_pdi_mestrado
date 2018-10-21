@@ -42,3 +42,6 @@ cv2.destroyAllWindows()<br>
 
 <h2>Translação(deslocamento)</h2>
 <p></p>
+
+
+<h1></h1>
