@@ -72,6 +72,9 @@ beta = scale * cos0 e beta=scale*sin0
 <p>Esse metódo aceita uma imagem como entrada e um angulo pra rotaciona-la</p>
 <p>Assumimos que vamos girar nossa imagem sobre esse centro( x,y )-coordenadas, então nós
 determinamos esses valores nas linhas....</p>
+<p>Dadas essas coordenadas podemos chamar cv2.getRotationMatrix2D para obter nossa matriz de rotação M( linha...).</p>
+<p>Porém para ajustar para qualquer imagem precisamos fazer alguns ajustes</p>
+<p>Começamos pegando os valores de seno e cossenos da nossa matriz de rotação</p>
 
 
 
