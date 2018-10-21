@@ -45,7 +45,8 @@ cv2.destroyAllWindows()<br>
 
 
 <h1>Resolvendo problema de Rotação do OpenCV</h1>
-<h1>Implementando uma função de rotação que não corta suas imagens</h1>
+<h4>Tadução do artigo https://www.pyimagesearch.com/2017/01/02/rotate-images-correctly-with-opencv-and-python/</h4>
+<h4>Implementando uma função de rotação que não corta suas imagens</h4>
 <p>Vamos começar dizendo que não há nada de errado com cv2.getRotationMatrix2D e cv2.warpAffine funções que são usadas
 para rotacionar imagens no OpenCV.</p>
 <p>Na verdade, essas funções nos dão mais liberdade nós nos sentimos mais confortáveis com elas.( mais ou menos
