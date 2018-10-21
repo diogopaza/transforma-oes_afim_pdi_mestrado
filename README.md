@@ -44,4 +44,16 @@ cv2.destroyAllWindows()<br>
 <p></p>
 
 
-<h1></h1>
+<h1>Resolvendo problema de Rotação do OpenCV</h1>
+<h1>Implementando uma função de rotação que não corta suas imagens</h1>
+<p>Vamos começar dizendo que não há nada de errado com cv2.getRotationMatrix2D e cv2.warpAffine funções que são usadas
+para rotacionar imagens no OpenCV.</p>
+<p>Na verdade, essas funções nos dão mais liberdade nós nos sentimos mais confortáveis com elas.( mais ou menos
+como gerenciar memoria em C versos coletor de lixo do Java. )</p>
+<p>A função cv2.getRotation2D não se importa se nós gostariamos que toda a imagem girada fosse mantida.  </p>
+
+<p>Não importa se as imagens são cortadas.</p>
+<p>Isso não vai ajudar você, vai ser um tiro no pé( eu descobri isso da maneira mais difícil, eu levei
+3 semanas para resolver o problema. ) </p>
+<p>Em vez disso, oque você precisa é entender oque é a matriz de rotação e como ela é construída.</p>
+<p>Você ve quando gira ima imagem com OpenCV você chama cv2.getRotationMatrix2D que retorna uma matriz M que se parece com isso:</p>
