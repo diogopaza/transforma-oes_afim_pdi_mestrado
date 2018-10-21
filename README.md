@@ -74,7 +74,14 @@ beta = scale * cos0 e beta=scale*sin0
 determinamos esses valores nas linhas....</p>
 <p>Dadas essas coordenadas podemos chamar cv2.getRotationMatrix2D para obter nossa matriz de rotação M( linha...).</p>
 <p>Porém para ajustar para qualquer imagem precisamos fazer alguns ajustes</p>
-<p>Começamos pegando os valores de seno e cossenos da nossa matriz de rotação</p>
+<p>Começamos pegando os valores de seno e cossenos da nossa matriz de rotação M( linhas... )</p>
+<p>Isso nos permite calcular a nova largura e altura da imagem girada, garantindo que nenhuma parte da imagem seja cortada</p>
+<p>Uma vez que sabemos a nova largura e altura, podemos modificar nossa matriz de rotação mais uma vez( linhas...) </p>
+<p>Finalmente cv2.warpAffine é chamada na última linha para rotacionar a imagem atual usando OpenCV 
+garantindo que nenhuma imagem seja cortada</p>
+
+
+
 
 
 
