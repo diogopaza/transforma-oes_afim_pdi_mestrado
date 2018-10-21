@@ -58,3 +58,9 @@ como gerenciar memoria em C versos coletor de lixo do Java. )</p>
 3 semanas para resolver o problema. ) </p>
 <p>Em vez disso, oque você precisa é entender oque é a matriz de rotação e como ela é construída.</p>
 <p>Você ve quando gira ima imagem com OpenCV você chama cv2.getRotationMatrix2D que retorna uma matriz M que se parece com isso:</p>
+<p>Esta matriz parece assustadora, mas eu prometo a você: não é</p>
+<p>Para entender isso, vamos assumir que queremos girar nossa imagem 0 graus sobre o centro ( cx, cy )coor
+denadas em alguma escala( menor ou maior)</p>
+<p>Podemos então inserir valores para gama e beta</p>
+beta = scale * cos0 e beta=scale*sin0
+
