@@ -3,7 +3,7 @@ from tkinter import *
 master=None
 
 container_principal = Frame(master)
-container_principal["pady"]=10
+container_principal["pady"]=5
 container_principal.pack()
 
 container2 = Frame(master)
@@ -25,8 +25,6 @@ lbl_graus.pack( side= LEFT )
 txt_graus = Entry(container2)
 txt_graus["width"]=10
 txt_graus.pack( side=LEFT)
-
-
 
 btn = Button(container3, text="Selecionar imagem")
 btn.pack( side=LEFT)
