@@ -15,10 +15,10 @@ Pega a matriz de rotação( aplicando
 o negativo do ângulo para girar no sentido horário), então pega o seno
 e cosseno
 """
-matrizM = cv2.getRotationMatrix2D( (cX, cY), angle, 1)
+matrizM = cv2.getRotationMatrix2D( (cX, cY), angle, 0.5)
 cos = np.abs( matrizM[0,0])
 sen = np.abs( matrizM[0,1])
-
+print (np.abs( matrizM[0,0]))
 #Calcula as novas dimensões limites da imagem
 nW = int( (h*sen) + ( w*cos))
 nH = int( (h * cos) + ( w * sen) )
